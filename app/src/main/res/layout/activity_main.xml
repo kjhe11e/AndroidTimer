@@ -11,11 +11,20 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.khe11e.timer.MainActivity">
 
-
     <Chronometer
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/clock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap time to begin"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/topTextView"
+        android:textAlignment="center" />
 </RelativeLayout>

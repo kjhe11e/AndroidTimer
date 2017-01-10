@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         clock = (Chronometer) findViewById(R.id.clock);
+        clock.setTextSize(88);
         clock.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
